@@ -50,7 +50,7 @@ Di tingkat yang lebih rendah lagi, terdapat subtype "Diamond". "Diamond" juga me
 
 Dengan hierarki ini, "Paket TV" berfungsi sebagai entitas supertype yang menggambarkan kategori umum dari paket TV yang tersedia. "Platinum" dan "Diamond" berperan sebagai subtype yang lebih spesifik, mewarisi atribut-atribut dari "Paket TV" dan menambahkan atribut-atribut tambahan yang unik untuk masing-masing jenis paket. Hierarki ini memungkinkan pengelompokan dan pengorganisasian yang jelas dari paket TV berdasarkan tingkat kekayaan atau fitur-fitur tambahan yang ditawarkan.
 
-# SCREEMSHOT CODE DAN PENJELASAN
+# SCREENSHOT CODE DAN PENJELASAN
 CLASS DATABASE
 ![image](https://github.com/Proyek-Akhir-Kelompok-8/TV-KABEL/assets/126888649/ebef2eb4-0e2b-447c-a6f0-5a08b215a8e7)
 1. **Package Declaration**: Kode dimulai dengan deklarasi paket yang menunjukkan kelas ini berada dalam paket "db."
