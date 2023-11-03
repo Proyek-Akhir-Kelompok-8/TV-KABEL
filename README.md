@@ -1,14 +1,54 @@
-# TV-KABEL
-Aplikasi TV Kabel adalah proyek perangkat lunak yang dibangun untuk membantu penyedia layanan TV kabel dalam mengelola dan menyediakan layanan kepada pelanggan mereka. Aplikasi ini dirancang untuk meningkatkan efisiensi operasional, meningkatkan kepuasan pelanggan, dan memberikan alat yang berguna untuk tim manajemen dan dukungan pelanggan.
+# Manajemen TV Kabel
+## Kelompok 8
+## Doni Arya Rachmadi (2209116033)
+## Remanda Dheva      (2209116034)
+## Tugas Proyek Akhir (Capstone Project) Praktikum Pemrograman Berorientasi Objek dan Praktikum Desain Basis Data
+## Deskripsi Project
+Aplikasi TV Kabel adalah proyek perangkat lunak yang dibangun untuk membantu penyedia layanan TV kabel dalam mengelola dan menyediakan layanan kepada pelanggan mereka. Aplikasi ini dirancang untuk meningkatkan efisiensi operasional, meningkatkan kepuasan pelanggan, dan memberikan alat yang berguna untuk tim manajemen dan dukungan pelanggan. Proyek Manajemen TV Kabel akan melibatkan penggunaan konsep-konsep dasar seperti kelas, objek, pewarisan, enkapsulasi, dan polimorfisme. Dalam proyek ini, kelas-kelas akan digunakan untuk merepresentasikan entitas-entitas yang terlibat, seperti paket TV kabel, pelanggan, dan pegawai. Setiap kelas akan memiliki atribut-atribut yang relevan dengan entitas yang diwakilinya, serta metode-metode yang digunakan untuk mengelola dan memanipulasi data.
 
-# Flowchart
-![pa-flowchart final drawio](https://github.com/Proyek-Akhir-Kelompok-8/TV-KABEL/assets/126888649/6777668b-5198-489d-82d9-6ecd94290cca)
+Dengan menggunakan konsep-konsep pemrograman berorientasi objek ini, proyek manajemen TV kabel dapat diorganisir dengan lebih terstruktur dan mudah dipelihara. Selain itu, pendekatan ini juga memungkinkan pengembang untuk mengelola kompleksitas proyek dengan lebih efisien dan meningkatkan fleksibilitas dalam menghadapi perubahan kebutuhan atau penambahan fitur di masa depan.
 
-# ERD
-![image](https://github.com/Proyek-Akhir-Kelompok-8/TV-KABEL/assets/126888649/ffcf22c8-7c05-481f-809d-eff911bec395)
+## Flowchart
+![pa-flowchart final drawio](https://github.com/Proyek-Akhir-Kelompok-8/PA-PBO/assets/126783072/68160de4-ea54-4b2a-a5c4-a0dad9c37f55)
 
-# HIRARKI
-![HIRARHKI](https://github.com/Proyek-Akhir-Kelompok-8/TV-KABEL/assets/126888649/361c5b8e-d55a-44a2-b7d2-98c17f2d8525)
+Flowchart ini dimulai dengan simbol awal (start) yang menandakan awal dari proses. Langkah pertama adalah pengguna melakukan login. Setelah itu, flowchart bercabang ke simbol keputusan, di mana pengguna harus memutuskan apakah ingin login atau keluar. Jika pengguna memilih login, alur proses akan melanjutkan ke Langkah berikutnya, yaitu memasukan username dan password. Jika login berhasil, maka lanjut ke Langkah berikutnya, yaitu menu admin. Flowchart kembali bercabang ke simbol keputusan, di mana pengguna harus memutuskan apakah ingin melanjutkan ke data pelanggan, data paket tv, atau keluar. 
+
+Jika pengguna memilih menu data pelanggan, maka akan dilanjutkan ke proses selanjutnya yang dimana pengguna akan diminta untuk memilih menu yang tersedia dan melanjutkan proses selanjutnya berdasarkan flowchart. Jika pengguna memilih menu data paket tv, maka akan dilanjutkan ke proses selanjutnya yang dimana pengguna akan diminta untuk memilih menu yang tersedia dan melanjutkan proses selanjutnya berdasarkan flowchart. Dan jika pengguna memilih menu keluar, maka akan dilanjutkan ke proses selanjutnya yang dimana pengguna akan kembali pada menu login diawal, lalu pengguna akan diminta untuk memilih menu yang tersedia dan melanjutkan proses selanjutnya berdasarkan flowchart. Jika pengguna memilih keluar pada menu login, maka alur proses in akan berhenti berjalan dan program selesai.
+
+Flowchart ini membantu pengguna dan pihak terkait memahami alur proses manajemen tv kabel secara online dengan jelas. Dengan melihat flowchart, dapat dilihat langkah-langkah yang harus diikuti dan keputusan yang harus diambil dalam setiap tahap. Hal ini memudahkan pengguna untuk mengikuti proses pemesanan dengan benar dan memastikan bahwa semua informasi yang diperlukan telah dimasukkan dengan tepat. Flowchart juga membantu dalam mengidentifikasi dan memperbaiki masalah yang mungkin terjadi dalam proses pendataan.
+
+## ERD
+
+* Logical ERD
+  
+  ![image](https://github.com/Proyek-Akhir-Kelompok-8/PA-PBO/assets/126783072/740fc388-c906-4b7f-a340-9a68a2f28b2e)
+
+  Logical ERD (Entity Relationship Diagram) dapat digunakan sebagai panduan untuk merancang struktur kelas dan hubungan antar kelas dalam proyek pemrograman. Setiap entitas dalam Logical ERD dapat direpresentasikan sebagai kelas dalam pemrograman berorientasi objek, dengan atribut-atribut entitas menjadi atribut-atribut kelas dan hubungan antar entitas menjadi hubungan antar kelas.
+
+  Misalnya, entitas "Pelanggan" dapat direpresentasikan sebagai kelas "Pelanggan" dalam Pemrograman Berorientasi Objek. Atribut-atribut entitas seperti id pelanggan, nama pelanggan, alamat, no handphone, email, tanggal berlangganan, dan status langganan dapat menjadi atribut pada kelas "Pelanggan". Metode-metode dalam kelas "Pelanggan" dapat digunakan untuk mengelola data pelanggan, seperti mengubah alamat, no handphone, atau status langganan.
+
+  Selain itu, hubungan antara entitas dalam Logical ERD juga dapat direpresentasikan sebagai hubungan antar kelas dalam pemrograman berorientasi objek. Misalnya, hubungan "One-to-Many" antara entitas "Pegawai" dan "Pelanggan" dapat diimplementasikan dengan menggunakan objek "Pegawai" yang memiliki koleksi objek "Pelanggan" sebagai atributnya. Dengan demikian, setiap objek "Pegawai" dapat terhubung dengan banyak objek "Pelanggan", dan setiap objek "Pelanggan" hanya terhubung dengan satu objek "Pegawai".
+
+  Dengan menggunakan Logical ERD sebagai panduan, pemrogram dapat merancang struktur kelas dan hubungan antar kelas yang sesuai dengan kebutuhan proyek. Hal ini memungkinkan pengorganisasian kode yang lebih terstruktur, pemisahan tanggung jawab yang jelas antara kelas-kelas, dan memudahkan pengembangan dan pemeliharaan proyek pemrograman berorientasi objek secara keseluruhan.
+
+* Relational ERD
+  ![image](https://github.com/Proyek-Akhir-Kelompok-8/PA-PBO/assets/126783072/4ba2705e-45c1-4059-afaa-4bbb44e0813f)
+
+  Dalam pemrograman berorientasi objek, Relational ERD dapat digunakan sebagai panduan untuk merancang struktur kelas dan hubungan antar kelas dalam proyek pemrograman. Setiap entitas dalam Relational ERD dapat direpresentasikan sebagai kelas dalam pemrograman berorientasi objek, dengan atribut-atribut entitas menjadi atribut-atribut kelas.
+
+  Selain itu, hubungan antara entitas dalam Relational ERD juga dapat direpresentasikan sebagai hubungan antar kelas dalam pemrograman berorientasi objek. Misalnya, hubungan "One-to-Many" antara entitas "Paket TV Kabel" dan "Pelanggan" dapat diimplementasikan dengan menggunakan objek "PaketTV" yang memiliki koleksi objek "Pelanggan" sebagai atributnya. Dengan demikian, setiap objek "PaketTV" dapat terhubung dengan banyak objek "Pelanggan", dan setiap objek "Pelanggan" hanya terhubung dengan satu objek "PaketTV".
+  
+  Dengan menggunakan Relational ERD sebagai panduan, pemrogram dapat merancang struktur kelas dan hubungan antar kelas yang sesuai dengan kebutuhan proyek. Hal ini memungkinkan pengorganisasian kode yang lebih terstruktur, pemisahan tanggung jawab yang jelas antara kelas-kelas, dan memudahkan pengembangan dan pemeliharaan proyek pemrograman berorientasi objek secara keseluruhan. Selain itu, struktur database yang sesuai dengan Relational ERD juga dapat diimplementasikan menggunakan ORM (Object-Relational Mapping) untuk memudahkan interaksi antara objek dalam pemrograman dengan basis data.
+
+
+## Hierarki
+![pa-hierarki drawio](https://github.com/Proyek-Akhir-Kelompok-8/PA-PBO/assets/126783072/6ef738c0-c9d8-469f-9037-e3aa224d0750)
+
+Hierarki paket TV dimulai dengan tingkat teratas, yaitu "Paket TV". Ini adalah entitas supertype yang mewakili kategori umum dari paket TV yang tersedia. Paket TV memiliki atribut-atribut seperti ID paket, nama paket, harga, masa berlaku, daftar saluran, dan fitur tambahan.
+Di bawah "Paket TV", terdapat dua subtype yang lebih spesifik, yaitu "Platinum" dan "Diamond". "Platinum" adalah salah satu jenis paket TV yang termasuk dalam kategori "Paket TV". Ini memiliki atribut-atribut yang diturunkan dari "Paket TV", seperti ID paket (sebagai primary key dan foreign key), konten premium, dan atribut-atribut lain yang mungkin spesifik untuk paket Platinum.
+Di tingkat yang lebih rendah lagi, terdapat subtype "Diamond". "Diamond" juga merupakan jenis paket TV yang termasuk dalam kategori "Paket TV". Seperti "Platinum", "Diamond" memiliki atribut-atribut yang diturunkan dari "Paket TV", seperti ID paket (sebagai primary key dan foreign key), saluran khusus, layanan VIP, dan atribut-atribut lain yang mungkin spesifik untuk paket Diamond.
+
+Dengan hierarki ini, "Paket TV" berfungsi sebagai entitas supertype yang menggambarkan kategori umum dari paket TV yang tersedia. "Platinum" dan "Diamond" berperan sebagai subtype yang lebih spesifik, mewarisi atribut-atribut dari "Paket TV" dan menambahkan atribut-atribut tambahan yang unik untuk masing-masing jenis paket. Hierarki ini memungkinkan pengelompokan dan pengorganisasian yang jelas dari paket TV berdasarkan tingkat kekayaan atau fitur-fitur tambahan yang ditawarkan.
 
 # SCREEMSHOT CODE DAN PENJELASAN
 CLASS DATABASE
